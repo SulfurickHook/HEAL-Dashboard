@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'hk-grotesk-bold';
+    src: url('font/hk-grotesk-bold-maisfontes.db7b/hk-grotesk-bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #004AAD;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0.0, 0.3);
+
+}
+
+.card {
+    background-image: url(img/footer.jpg);
+}
+
+.horizontal-list li {
+
+    display: inline-block;
+    align-items: flex-start;
+    margin-right: 10px;
+    align-items: flex-start;
+}
+
+footer {
+
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+    background-image: url(img/footer.jpg);
+    
+}
+.conteudo {
+    /* Estilos para o conteúdo da página */
+    padding: 20px;
+}
+
+.rodape {
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+}
+
+.rodape ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+
+
+.right-text {
+    color: #000000;
+    font-family: 'hk-grotesk-bold', sans-serif;;
+    text-align: right;
+    font-size: large;
+}
+
+.jumbotron{
+border-image: round;
+}
